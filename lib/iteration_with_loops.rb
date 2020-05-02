@@ -6,7 +6,7 @@ def find_even_values(src)
   
   while inner_count < src[count].count do
   
-  if src[count][inner_count].even? do 
+  if src[count][inner_count].even?  
    even_numbers << src[count][inner_count]
   end
   inner_count += 1
