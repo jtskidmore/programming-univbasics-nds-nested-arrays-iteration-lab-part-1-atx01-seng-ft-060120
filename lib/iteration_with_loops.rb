@@ -9,10 +9,10 @@ def find_even_values(src)
   if src[count][inner_count].even? do 
    even_numbers << src[count][inner_count]
   end
-  inner_count+=
+  inner_count += 1
   end
     
-  count+=
+  count += 1
     
   end
   
